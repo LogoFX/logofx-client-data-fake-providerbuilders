@@ -1,4 +1,5 @@
 ﻿using System;
+using Attest.Fake.Core;
 using Attest.Fake.Setup;
 using Attest.Fake.Setup.Contracts;
 
@@ -12,6 +13,25 @@ namespace LogoFX.Client.Data.Fake.ProviderBuilders
     public abstract class FakeBuilderBase<TProvider> : Attest.Fake.Builders.FakeBuilderBase<TProvider> where TProvider : class
     {
         /// <summary>
+        /// Initializes a new instance of the <see cref="FakeBuilderBase{TProvider}"/> class.
+        /// </summary>
+        protected FakeBuilderBase()
+        {
+            
+        }
+
+        /// <summary>
+        /// Initializes a new instance of the <see cref="FakeBuilderBase{TProvider}"/> class
+        /// with fake service instance.
+        /// </summary>
+        /// <param name="fake">The fake.</param>
+        protected FakeBuilderBase(IFake<TProvider> fake)
+            :base(fake)
+        {
+            
+        }
+
+        /// <summary>
         /// Creates initial template for the fake setup.
         /// </summary>
         /// <returns></returns>
@@ -21,9 +41,9 @@ namespace LogoFX.Client.Data.Fake.ProviderBuilders
         }
 
         /// <summary>
-        /// Override this method to substitute method calls in the faked service.
+        /// Sets up the fake service calls.
         /// </summary>
-        protected override void SetupFake()
+        protected sealed override void SetupFake()
         {
             var initialSetup = CreateInitialSetup();
             var setup = CreateServiceCall(initialSetup);
