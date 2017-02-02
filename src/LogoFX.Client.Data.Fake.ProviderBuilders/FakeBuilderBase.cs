@@ -1,5 +1,4 @@
-﻿using System;
-using Attest.Fake.Core;
+﻿using Attest.Fake.Core;
 using Attest.Fake.Setup;
 using Attest.Fake.Setup.Contracts;
 
@@ -8,8 +7,7 @@ namespace LogoFX.Client.Data.Fake.ProviderBuilders
     /// <summary>
     /// Base provider builder with basic setup functionality.
     /// </summary>
-    /// <typeparam name="TProvider">The type of the provider.</typeparam>
-    [Serializable]
+    /// <typeparam name="TProvider">The type of the provider.</typeparam>    
     public abstract class FakeBuilderBase<TProvider> : Attest.Fake.Builders.FakeBuilderBase<TProvider> where TProvider : class
     {
         /// <summary>
