@@ -19,8 +19,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Attest.Fake.Builders" Version="1.2.0-rc1" />
-    <PackageReference Include="Attest.Fake.Setup" Version="1.2.0-rc1" />
+    <PackageReference Include="Attest.Fake.Builders" Version="1.2.0-rc2" />
+    <PackageReference Include="Attest.Fake.Setup" Version="1.2.0-rc2" />
   </ItemGroup>
 
 </Project>
