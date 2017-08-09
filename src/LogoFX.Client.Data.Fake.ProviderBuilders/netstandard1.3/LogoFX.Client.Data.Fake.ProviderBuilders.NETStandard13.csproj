@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.3</TargetFramework>
+    <AssemblyName>LogoFX.Client.Data.Fake.ProviderBuilders</AssemblyName>
+    <RootNamespace>LogoFX.Client.Data.Fake.ProviderBuilders</RootNamespace>
+    <Version>1.1.0</Version>
+    <AssemblyVersion>1.1.0</AssemblyVersion>
+    <FileVersion>1.1.0</FileVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>..\..\Bin\netstandard1.3\Release</OutputPath>
+    <DocumentationFile>..\..\Bin\netstandard1.3\Release\netstandard1.3\LogoFX.Client.Data.Fake.ProviderBuilders.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\src\FakeBuilderBase.cs" Link="FakeBuilderBase.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Attest.Fake.Builders" Version="1.2.0-rc2" />
+    <PackageReference Include="Attest.Fake.Setup" Version="1.2.0-rc2" />
+  </ItemGroup>
+
+</Project>
