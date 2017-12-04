@@ -4,6 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>LogoFX.Client.Data.Fake.ProviderBuilders</AssemblyName>
     <RootNamespace>LogoFX.Client.Data.Fake.ProviderBuilders</RootNamespace>
+    <Version>1.1.1</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
