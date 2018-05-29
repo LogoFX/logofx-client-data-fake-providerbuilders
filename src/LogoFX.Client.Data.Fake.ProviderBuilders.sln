@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogoFX.Client.Data.Fake.ProviderBuilders.NETStandard13", "LogoFX.Client.Data.Fake.ProviderBuilders\netstandard1.3\LogoFX.Client.Data.Fake.ProviderBuilders.NETStandard13.csproj", "{ECB8A51A-2819-4D8F-A26A-B02DBEE7B7FE}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LogoFX.Client.Data.Fake.ProviderBuilders.NETStandard20", "LogoFX.Client.Data.Fake.ProviderBuilders\netstandard2.0\LogoFX.Client.Data.Fake.ProviderBuilders.NETStandard20.csproj", "{A60C6824-1FBE-4BC8-8E02-F54BDE0B668D}"
 EndProject
 Global
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ECB8A51A-2819-4D8F-A26A-B02DBEE7B7FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ECB8A51A-2819-4D8F-A26A-B02DBEE7B7FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ECB8A51A-2819-4D8F-A26A-B02DBEE7B7FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ECB8A51A-2819-4D8F-A26A-B02DBEE7B7FE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A60C6824-1FBE-4BC8-8E02-F54BDE0B668D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A60C6824-1FBE-4BC8-8E02-F54BDE0B668D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A60C6824-1FBE-4BC8-8E02-F54BDE0B668D}.Release|Any CPU.ActiveCfg = Release|Any CPU
